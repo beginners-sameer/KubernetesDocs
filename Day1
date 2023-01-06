@@ -6,3 +6,17 @@ kind
 minikube
 kubeadm
 
+______________
+
+make sure your kubectl version can have onem minor version different of your cluster.
+
+for ex : 
+
+kubectl version 1.26 client <-> 1.25, 1.26, 1.27 control planes.
+
+_______________
+
+now am trying to install kubectl version 1.26 which means kubernetes version on amazon linux.
+
+
+
