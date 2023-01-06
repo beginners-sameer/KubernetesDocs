@@ -1,0 +1,8 @@
+Latest K8S version : 1.26
+
+We can use man tools to learn K8S in your local env., 
+
+kind
+minikube
+kubeadm
+
