@@ -19,5 +19,30 @@ _______________
 now am trying to install kubectl version 1.26 which means kubernetes version on amazon linux.
 I tried to setup kubectl on linux / amazon / ubuntu 
 
+____________________________
+
+In order to run a pod, you need container runtime into each node in the cluster.
+
+this container runtime should be conform with the CRI.
+
+few container runtime:
+containerd
+CRI-O
+Docker Engine
+Mirantis Container Runtime
+
+D.E <-> Docker shim <-> K8S .. before v1.24
+
+docker shim integration is no longer part of k8s. 
+
+this removal was removed as part of v 1.20
+
+
+
+
+
+
+
+
 
 
